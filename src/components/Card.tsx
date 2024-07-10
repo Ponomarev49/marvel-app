@@ -17,8 +17,6 @@ const Card: React.FC<CardProps> = ({ item }) => {
   const handleClick = () => {
     if (item.name) {
       navigate(`/characters/${item.id}`);
-    } else if (item.title) {
-      navigate(`/comics/${item.id}`);
     }
   };
 

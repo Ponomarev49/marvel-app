@@ -51,9 +51,10 @@
   
   .comicItem a {
     text-decoration: none;
-    color: #0073e6;
+    color: #000000;
   }
   
   .comicItem a:hover {
+    color: #000000;
     text-decoration: underline;
   }
