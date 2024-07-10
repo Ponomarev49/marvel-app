@@ -8,7 +8,7 @@ const ComicsList: React.FC = () => {
     <div>
       <h1>Comics</h1>
       <div className={styles.searchContainer}>
-        <input type="text" placeholder="Search for Characters by Name" className={styles.searchInput} />
+        <input type="text" placeholder="Search for Comics by Name" className={styles.searchInput} />
         <button className={styles.searchButton}>SEARCH</button>
       </div>
       <div className={styles.comicsList}>
